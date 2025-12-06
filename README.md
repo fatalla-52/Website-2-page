@@ -23,6 +23,7 @@
         font-weight: bold;
     }
     .header{
+      position: absolute;
       margin-right: 20px;
       font-weight: bold;
       text-align: right;
