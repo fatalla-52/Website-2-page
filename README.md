@@ -7,13 +7,11 @@
 
 <style>
     *{
-        margin:0;
-        padding:0;
         box-sizing:border-box;
     }
 
     body{
-        background:#c7c0a4;
+        background: #c7c0a4;
         font-family: Arial, sans-serif;
         padding:20px;
     }
@@ -31,31 +29,31 @@
     }
       
     .container{
-        max-width:1200px;
-        margin:auto;
-        display:grid;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap:25px;
+        gap: 25px;
     }
 
     .box{
-        background:#e8e2ce;
-        padding:15px;
-        border-radius:8px;
-        text-align:center;
+        background: #e8e2ce;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
     }
 
     .box img{
-        width:100%;
-        border-radius:6px;
-        margin-bottom:12px;
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 12px;
     }
 
     ol{
-        text-align:left;
-        padding-left:18px;
-        font-size:16px;
-        line-height:1.5;
+        text-align: left;
+        padding-left: 18px;
+        font-size: 16px;
+        line-height: 1.5;
     }
 </style>
 </head>
