@@ -83,7 +83,7 @@
 
     
     <div class="box">
-        <img src="bubble-tea-boba.jpg" alt="Ingredients">
+        <img src="bubble-tea-boba-1.jpg" alt="Ingredients">
         <ol>
             <li>Black Tea</li>
             <li>Brown Sugar</li>
