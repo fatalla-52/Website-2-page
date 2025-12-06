@@ -83,7 +83,7 @@
 
     
     <div class="box">
-        <img src="ingredients.jpg" alt="Ingredients">
+        <img src="bubble-tea-boba.jpg" alt="Ingredients">
         <ol>
             <li>Black Tea</li>
             <li>Brown Sugar</li>
@@ -95,7 +95,7 @@
     </div>
 
     <div class="box">
-        <img src="recipe.jpg" alt="Recipe">
+        <img src="ingredients.jpg" alt="Recipe">
     </div>
 
 </div>
