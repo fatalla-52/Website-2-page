@@ -9,12 +9,12 @@
     body {
         background: #c7c0a4;
         font-family: Arial, sans-serif;
-        padding:20px;
-       box-sizing:border-box;
+        padding: 20px;
+       box-sizing: border-box;
     }
 
     h1 {
-        text-align: left;
+        text-align: right;
         font-size: 28px;
         margin-bottom: 30px;
         font-weight: bold;
@@ -43,7 +43,7 @@
 
     .box img {
         width: 100%;
-        border-radius: 6px;
+        border-radius: 5px;
         margin-bottom: 12px;
     }
 
