@@ -20,9 +20,9 @@
         font-weight: bold;
     }
     .nav {
-      position: ;
+      position: absolute;
       margin-right: 20px;
-      
+      font-size: 18px;
       text-align: right;
     }
       
@@ -57,9 +57,9 @@
 </head>
 <body> 
    <nav>
-     <a href="#>Home"</a>
-     <a href="#>Learn"</a>
-     <a href="#c>Contact"</a>
+     <a href="#">Home</a>
+     <a href="#">Learn</a>
+     <a href="#">Contact</a>
    </nav>
 
 <h1>Equipment and ingredients for making milktea
