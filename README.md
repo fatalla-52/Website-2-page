@@ -6,30 +6,27 @@
 <title>Milktea Materials</title>
 
 <style>
-    *{
-        box-sizing:border-box;
-    }
-
-    body{
+    body {
         background: #c7c0a4;
         font-family: Arial, sans-serif;
         padding:20px;
+       box-sizing:border-box;
     }
 
-    h1{
+    h1 {
         text-align: left;
         font-size: 28px;
         margin-bottom: 30px;
         font-weight: bold;
     }
-    .header{
-      position: absolute;
+    .nav {
+      position: ;
       margin-right: 20px;
-      font-weight: bold;
+      
       text-align: right;
     }
       
-    .container{
+    .container {
         max-width: 1200px;
         margin: auto;
         display: grid;
@@ -37,20 +34,20 @@
         gap: 25px;
     }
 
-    .box{
+    .box {
         background: #e8e2ce;
         padding: 15px;
         border-radius: 8px;
         text-align: center;
     }
 
-    .box img{
+    .box img {
         width: 100%;
         border-radius: 6px;
         margin-bottom: 12px;
     }
 
-    ol{
+    ol {
         text-align: left;
         padding-left: 18px;
         font-size: 16px;
@@ -59,14 +56,13 @@
 </style>
 </head>
 <body> 
-   <header>
-     <a href="#home">Home</a>
-     <a href="#learn">Learn</a>
-     <a href="#contact">Contact</a>
-   </header>
+   <nav>
+     <a href="#>Home"</a>
+     <a href="#>Learn"</a>
+     <a href="#c>Contact"</a>
+   </nav>
 
-<h1>Equipment and ingredients for making milktea</h1>
-
+<h1>Equipment and ingredients for making milktea
 <div class="container">
 
     <div class="box">
