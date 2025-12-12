@@ -38,7 +38,7 @@
     .nav {
         padding: 15px 30px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: right;
         font-weight: bold;
         gap: 25px;
     }
@@ -52,7 +52,7 @@
         flex-direction: column;
         max-width: 400px;
         gap: 15px;
-        justify-content: right;
+        justify-content: flex-end;
     }
 
     input, textarea {
@@ -73,12 +73,11 @@
     button {
         width: 120px;
         padding: 10px;
-        border: none;
         background: #85e6ff;
         font-size: 16px;
         border-radius: 6px;
         cursor: pointer;
-        justify-content: right;
+        justify-content: flex-end;
     }
 </style>
 </head>
