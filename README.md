@@ -11,16 +11,8 @@
     }
 
     h2 {
-        text-align: center;
+        text-align: left;
         margin-top: 20px;
-    }
-
-    .menu {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 28px;
-        cursor: pointer;
     }
 
     .section {
@@ -35,14 +27,20 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .item {
-        width: 300px;
+    .item-1 {
+        width: 50px; 
+        height: 50px;
+        border: 5px solid black;
     }
-
-    .item img {
-        width: 90px 90px 90px;
-        border-radius: 6px;
+    .item-2 {
+        width: 50px;
+        height: 50px;
+        border: 5px solid black;
+    }
+    .item-3 {
+        width: 50px;
+        height: 50px;
+        border: 5px solid black;
     }
 
     ul {
@@ -111,7 +109,7 @@
 
     <div class="flex">
 
-        <div class="item">
+        <div class="item-1">
             <img src="equipment.jpg" alt="Equipment">
             <ul>
                 <li>Bar spoon small</li>
@@ -122,7 +120,7 @@
             </ul>
         </div>
 
-        <div class="item">
+        <div class="item-2">
             <img src="bubble-tea-boba-1.jpg" alt="">
             <ul>
                 <li>Black Tea</li>
@@ -134,7 +132,7 @@
             </ul>
         </div>
 
-        <div class="item">
+        <div class="item-3">
             <img src="ingredients.jpg" alt="Recipe">
         </div>
     </div>
