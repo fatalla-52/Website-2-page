@@ -35,12 +35,12 @@
         margin: 10px 0;
         padding-left: 20px;
     }
-  .nav {
-    padding: 15px 30px;
-    display: flex;
-    justify-content: right;
-    font-weight: bold;
-    gap: 25px;
+    .nav {
+        padding: 15px 30px;
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bold;
+        gap: 25px;
    }
     .contact-info {
         margin-bottom: 20px;
