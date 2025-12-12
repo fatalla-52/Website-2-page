@@ -25,10 +25,10 @@
         justify-content: center;
     }
     .item {
-        width: 300px; 
+        width: 200px; 
     }
     .item img{
-        width: 100%;
+        width: 900%;
         border-radius: 6px;
     }
     ul {
