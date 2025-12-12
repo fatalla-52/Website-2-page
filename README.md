@@ -55,10 +55,6 @@
         justify-content: flex-end;
         gap: 25px;
     }
-
-    .contact-info {
-        margin-bottom: 20px;
-    }
     
     .contact-info p {
         margin: 6px 0;
@@ -139,9 +135,7 @@
         <div class="item">
             <img src="ingredients.jpg" alt="Recipe">
         </div>
-
     </div>
-</div>
 
     <h2>Contact Us</h2>
 
