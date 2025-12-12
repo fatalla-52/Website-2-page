@@ -28,18 +28,18 @@
         justify-content: center;
     }
     .item-1 {
-        width: 300px; 
-        height: 200px;
+        width: 700px; 
+        height: 500px;
         border: 5px solid black;
     }
     .item-2 {
-        width: 300px;
-        height: 200px;
+        width: 700px;
+        height: 500px;
         border: 5px solid black;
     }
     .item-3 {
-        width: 300px;
-        height: 200px;
+        width: 700px;
+        height: 500px;
         border: 5px solid black;
     }
 
