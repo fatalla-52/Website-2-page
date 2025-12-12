@@ -36,9 +36,10 @@
         padding-left: 20px;
     }
     .nav {
-        padding: 15px;
+        padding: 15px 30px;
         display: flex;
         justify-content: flex-end;
+        font-weight: bold;
         gap: 25px;
     }
     .contact-info {
