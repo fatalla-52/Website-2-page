@@ -3,97 +3,160 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Milktea Materials</title>
+<title>Milk Tea Page</title>
 
 <style>
     body {
-        background: #c7c0a4;
-        font-family: Arial, sans-serif;
-        padding: 20px;
-       box-sizing: border-box;
+        background: #c6c0a4;
     }
 
-    h1 {
-        text-align: right;
-        font-size: 28px;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
-    .nav {
-      position: absolute;
-      margin-right: 20px;
-      font-size: 18px;
-      text-align: right;
-    }
-      
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
-    }
-
-    .box {
-        background: #e8e2ce;
-        padding: 15px;
-        border-radius: 8px;
+    h2 {
         text-align: center;
+        margin-top: 20px;
     }
 
-    .box img {
+    .menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .section {
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .flex {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    .item img {
         width: 100%;
-        border-radius: 5px;
-        margin-bottom: 12px;
+        border-radius: 6px;
     }
 
-    ol {
-        text-align: left;
-        padding-left: 18px;
+    ul {
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    .contact-container {
+        margin-top: 30px;
+        background: #c6c0a4;
+        padding: 20px;
+    }
+
+    .contact-info {
+        margin-bottom: 20px;
+    }
+
+    .contact-info p {
+        margin: 6px 0;
+        font-size: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        gap: 15px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        background: white;
+        box-shadow: 4px 4px 0px black;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 120px;
+        resize: none;
+    }
+
+    button {
+        width: 120px;
+        padding: 10px;
+        border: none;
+        background: #85e6ff;
         font-size: 16px;
-        line-height: 1.5;
+        border-radius: 6px;
+        cursor: pointer;
     }
 </style>
 </head>
-<body> 
-   <nav>
-     <a href="#">Home</a>
-     <a href="#">Learn</a>
-     <a href="#">Contact</a>
-   </nav>
 
-<h1>Equipment and ingredients for making milktea
-<div class="container">
+<body>
 
-    <div class="box">
-        <img src="equipment.jpg" alt="Equipment">
-        <ol>
-            <li>Bar spoon small</li>
-            <li>Pearl Scooper</li>
-            <li>Coffee spoon big</li>
-            <li>Clear jigger small</li>
-            <li>Clear cocktail shaker 350ml</li>
-        </ol>
+<div class="section">
+    <span class="menu">≡</span>
+
+    <h2>Equipment and ingredients for making milktea</h2>
+
+    <div class="flex">
+
+        <div class="item">
+            <img src="equipment.jpg" alt="Equipment">
+            <ul>
+                <li>Bar spoon small</li>
+                <li>Pearl Scooper</li>
+                <li>Coffee spoon big</li>
+                <li>Clear jigger small</li>
+                <li>Clear cocktail shaker 350ml</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <img src="bubble-tea-boba-1.jpg" alt="">
+            <ul>
+                <li>Black Tea</li>
+                <li>Brown Sugar</li>
+                <li>Milk</li>
+                <li>Tapioca Balls</li>
+                <li>Water</li>
+                <li>Ice</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <img src="ingredients.jpg" alt="Recipe">
+        </div>
+
+    </div>
+</div>
+
+<div class="section contact-container">
+    <span class="menu">≡</span>
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> anglefatalla@gmail.com</p>
+        <p><strong>Phone No:</strong> 09623428152</p>
+        <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
     </div>
 
-    
-    <div class="box">
-        <img src="bubble-tea-boba-1.jpg" alt="Ingredients">
-        <ol>
-            <li>Black Tea</li>
-            <li>Brown Sugar</li>
-            <li>Milk</li>
-            <li>Tapioca balls</li>
-            <li>Water</li>
-            <li>Ice</li>
-        </ol>
-    </div>
-
-    <div class="box">
-        <img src="ingredients.jpg" alt="Recipe">
-    </div>
-
+    <form>
+        <input type="text" placeholder="Full Name:">
+        <input type="email" placeholder="Email:">
+        <textarea placeholder="Message:"></textarea>
+        <button type="submit">Send</button>
+    </form>
 </div>
 
 </body>
 </html>
+
