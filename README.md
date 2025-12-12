@@ -55,7 +55,9 @@
         justify-content: flex-end;
         gap: 25px;
     }
-    
+    .contact-info {
+        margin-bottom: 20px;
+    }
     .contact-info p {
         margin: 6px 0;
         font-size: 15px;
