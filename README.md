@@ -30,17 +30,17 @@
     .item-1 {
         width: 700px; 
         height: 500px;
-        border: 5px solid black;
+        border-radius: 5px solid black;
     }
     .item-2 {
         width: 700px;
         height: 500px;
-        border: 5px solid black;
+        border-radius: 5px solid black;
     }
     .item-3 {
         width: 700px;
         height: 500px;
-        border: 5px solid black;
+        border-radius: 5px solid black;
     }
 
     ul {
