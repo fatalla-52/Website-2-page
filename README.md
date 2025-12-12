@@ -102,7 +102,9 @@
 <body>
 
 <div class="section">
-    <span class="menu">≡</span>
+    <a href="#">Home</a>
+    <a href="#">learn</a>
+    <a href="#">contact</a>
 
     <h2>Equipment and ingredients for making milktea</h2>
 
