@@ -25,7 +25,7 @@
         justify-content: center;
     }
     .item {
-        width: 250px; 
+        width: 270px; 
     }
     .item img{
         width: 900%;
@@ -108,7 +108,7 @@
         </div>
 
         <div class="item">
-            <img src="milktee.jpg" alt="ingredients">
+            <img src="bubble-tea-boba-1.jpg" alt="ingredients">
             <ul>
                 <li>Black Tea</li>
                 <li>Brown Sugar</li>
