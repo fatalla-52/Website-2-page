@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,7 +172,7 @@ form button:hover {
                     </ul>
                 </div>
                   
-                    <img src="bubble-tea-boba-1.jpg" alt="Milktea" class="card-image">
+                    <img src="bubble-tea-boba.jpg" alt="Milktea" class="card-image">
                 </div>
             </div>
         </section>
