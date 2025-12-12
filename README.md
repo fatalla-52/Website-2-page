@@ -35,13 +35,13 @@
         margin: 10px 0;
         padding-left: 20px;
     }
-    .nav {
-        padding: 15px 30px;
-        display: flex;
-        justify-content: right;
-        font-weight: bold;
-        gap: 25px;
-    }
+  .nav {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    gap: 25px;
+   }
     .contact-info {
         margin-bottom: 20px;
         margin: 6px 0;
@@ -59,7 +59,6 @@
         width: 100%;
         padding: 12px;
         border-radius: 8px;
-        border: none;
         background: white;
         box-shadow: 4px 4px 0px black;
         font-size: 14px;
@@ -67,7 +66,6 @@
 
     textarea {
         height: 120px;
-        resize: none;
     }
 
     button {
