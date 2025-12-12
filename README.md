@@ -50,7 +50,7 @@
     form {
         display: flex;
         flex-direction: column;
-        max-width: 400px;
+        width: 100%;
         gap: 15px;
         justify-content: flex-end;
     }
