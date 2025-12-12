@@ -25,7 +25,7 @@
         justify-content: center;
     }
     .item {
-        width: 200px; 
+        width: 250px; 
     }
     .item img{
         width: 900%;
