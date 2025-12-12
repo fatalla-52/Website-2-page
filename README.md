@@ -108,7 +108,7 @@
         </div>
 
         <div class="item">
-            <img src="bubble-tea-boba-1.jpg" alt="ingredients">
+            <img src="bubble-tea-boba.jpg" alt="ingredients">
             <ul>
                 <li>Black Tea</li>
                 <li>Brown Sugar</li>
