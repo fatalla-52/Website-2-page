@@ -9,18 +9,15 @@
     body {
         background: #c6c0a4;
     }
-
     h2 {
         text-align: left;
         margin-top: 20px;
     }
-
     .section {
         max-width: 1100px;
         margin: auto;
         padding: 20px;
     }
-
     .flex {
         display: flex;
         gap: 20px;
@@ -28,13 +25,12 @@
         justify-content: center;
     }
     .item {
-        width: 300%; 
+        width: 100%; 
     }
     .item img{
-        width: 100%;
+        width: 50%;
         border-radius: 6px;
     }
-
     ul {
         margin: 10px 0;
         padding-left: 20px;
@@ -50,7 +46,6 @@
         margin: 6px 0;
         font-size: 15px;
     }
-
     form {
         display: flex;
         flex-direction: column;
