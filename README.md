@@ -59,7 +59,8 @@
     .contact-info {
         margin-bottom: 20px;
     }
-60    .contact-info p {
+    
+    .contact-info p {
         margin: 6px 0;
         font-size: 15px;
     }
@@ -101,9 +102,12 @@
 <body>
 
 <div class="section">
+<nav>
     <a href="#">Home</a>
     <a href="#">learn</a>
     <a href="#">contact</a>
+</nav>
+    
 
     <h2>Equipment and ingredients for making milktea</h2>
 
@@ -138,9 +142,6 @@
 
     </div>
 </div>
-
-<div class="section contact-container">
-    <span class="menu">≡</span>
 
     <h2>Contact Us</h2>
 
