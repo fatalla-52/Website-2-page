@@ -125,7 +125,6 @@
 
     <section class="column">
         <img scr="ingredients.jpg" alt="Ingredients">
-         </div>
        <ul>
         <p>1. Black Tea</p>
         <p>2. Brown Sugar</p>
