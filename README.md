@@ -1,145 +1,214 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Milk Tea Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milktea Recipe & Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
 
-<style>
-    body {
-        background: #c6c0a4;
-    }
-    h2 {
-        text-align: left;
-        margin-top: 20px;
-    }
-    .section {
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px;
-    }
-    .flex {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .item {
-        width: 270px; 
-    }
-    .item img{
-        width: 930%;
-        border-radius: 6px;
-    }
-    ul {
-        margin: 10px 0;
-        padding-left: 20px;
-    }
-    .nav {
-        padding: 15px 30px;
-        display: flex;
-        justify-content: flex-end;
-        font-weight: bold;
-        gap: 25px;
-   }
-    .contact-info {
-        margin-bottom: 20px;
-        margin: 6px 0;
-        font-size: 15px;
-    }
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 25px;
-        justify-content: flex-end;
-        font-weight: bold;
-    }
+.container {
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
-    input, textarea {
-        width: 100%;
-        padding: 12px;
-        border-radius: 8px;
-        background: white;
-        box-shadow: 4px 4px 0px black;
-        font-size: 14px;
-    }
+section {
+    padding: 20px;
+}
 
-    textarea {
-        height: 120px;
-    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-    button {
-        width: 120px;
-        padding: 10px;
-        background: #85e6ff;
-        font-size: 16px;
-        border-radius: 6px;
-        cursor: pointer;
-        justify-content: flex-end;
-    }
-</style>
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.top-section {
+    background-color: #c7c1a5;
+}
+
+.top-section h1 {
+    font-size: 1.5rem;
+}
+
+.content-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom-section {
+    background-color: #c7c1a5; 
+}
+
+.contact-content {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-info p {
+    margin: 0 0 10px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+
+form button {
+    background-color: #4a90e2; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; /* Positions the send button correctly */
+}
+
+form button:hover {
+    background-color: #357ABD;
+}
+    </style>
 </head>
-
 <body>
+    <div class="container">
+     
+        <section class="top-section">
+            <header>
+                <h1>Equipment and ingredients for making milktea</h1>
+                <div class="menu-icon">☰</div>
+            </header>
 
-<div class="section">
-<nav>
-    <a href="#">Home</a>
-    <a href="#">learn</a>
-    <a href="#">contact</a>
-</nav>
-    
+            <div class="content-grid">
+            
+                <div class="card">
+                    <img src="equipment.jpg" alt="Equipment" class="card-image">
+                    <h2>Equipment List</h2>
+                    <ul>
+                        <li>1. Bar spoon small</li>
+                        <li>2. Pearl Scooper</li>
+                        <li>3. Coffee spoon big</li>
+                        <li>4. Clear jigger small</li>
+                        <li>5. Clear cocktail shaker 350ml</li>
+                    </ul>
+                </div>
 
-    <h2>Equipment and ingredients for making milktea</h2>
+                <div class="card">
+                    <img src="ingredients.jpg" alt="Ingredients" class="card-image">
+                    <h2>Ingredients List</h2>
+                    <ul>
+                        <li>1. Black Tea</li>
+                        <li>2. Brown Sugar</li>
+                        <li>3. Milk</li>
+                        <li>4. Tapioca balls</li>
+                        <li>5. Water</li>
+                        <li>6. Ice</li>
+                    </ul>
+                </div>
+                  
+                    <img src="bubble-tea-boba-1.jpg" alt="Milktea" class="card-image">
+                </div>
+            </div>
+        </section>
 
-    <div class="flex">
+        <section class="bottom-section">
+            <header>
+                <h2>Contact Us</h2>
+                <div class="menu-icon">☰</div>
+            </header>
 
-        <div class="item">
-            <img src="equipment.jpg" alt="Equipment">
-            <ul>
-                <li>Bar spoon small</li>
-                <li>Pearl Scooper</li>
-                <li>Coffee spoon big</li>
-                <li>Clear jigger small</li>
-                <li>Clear cocktail shaker 350ml</li>
-            </ul>
-        </div>
+            <div class="contact-content">
 
-        <div class="item">
-            <img src="bubble-tea-boba.jpg" alt="ingredients">
-            <ul>
-                <li>Black Tea</li>
-                <li>Brown Sugar</li>
-                <li>Milk</li>
-                <li>Tapioca Balls</li>
-                <li>Water</li>
-                <li>Ice</li>
-            </ul>
-        </div>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> anglefatalla@gmail.com</p>
+                    <p><strong>Phone No:</strong> 09623428152</p>
+                    <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
+                </div>
 
-        <div class="item">
-            <img src="ingredients.jpg" alt="Recipe">
-        </div>
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
-
-    <h2>Contact Us</h2>
-
-    <div class="contact-info">
-        <p><strong>Email:</strong> angiefatalla@gmail.com</p>
-        <p><strong>Phone No:</strong> 09623428152</p>
-        <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
-    </div>
-
-    <div class="form">
-      <form>
-        <input type="text" placeholder="Full Name:">
-        <input type="email" placeholder="Email:">
-        <textarea placeholder="Message:"></textarea>
-        <button type="submit">Send</button>
-    </form>
-    </div>
-</div>
 </body>
 </html>
-
