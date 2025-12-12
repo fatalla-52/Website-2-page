@@ -28,18 +28,18 @@
         justify-content: center;
     }
     .item-1 {
-        width: 50px; 
-        height: 50px;
+        width: 100px; 
+        height: 90px;
         border: 5px solid black;
     }
     .item-2 {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 90px;
         border: 5px solid black;
     }
     .item-3 {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 90px;
         border: 5px solid black;
     }
 
@@ -47,7 +47,7 @@
         margin: 10px 0;
         padding-left: 20px;
     }
-    nav {
+    .nav {
         padding: 15px;
         display: flex;
         justify-content: flex-end;
@@ -55,8 +55,6 @@
     }
     .contact-info {
         margin-bottom: 20px;
-    }
-    .contact-info p {
         margin: 6px 0;
         font-size: 15px;
     }
@@ -66,6 +64,7 @@
         flex-direction: column;
         max-width: 400px;
         gap: 15px;
+        justify-content: right;
     }
 
     input, textarea {
@@ -91,6 +90,7 @@
         font-size: 16px;
         border-radius: 6px;
         cursor: pointer;
+        justify-content: right;
     }
 </style>
 </head>
@@ -140,7 +140,7 @@
     <h2>Contact Us</h2>
 
     <div class="contact-info">
-        <p><strong>Email:</strong> anglefatalla@gmail.com</p>
+        <p><strong>Email:</strong> angiefatalla@gmail.com</p>
         <p><strong>Phone No:</strong> 09623428152</p>
         <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
     </div>
