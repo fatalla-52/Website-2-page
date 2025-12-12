@@ -37,11 +37,11 @@
     }
 
     .item {
-        width: 90px;
+        width: 300px;
     }
 
     .item img {
-        width: 90%;
+        width: 90px 90px 90px;
         border-radius: 6px;
     }
 
