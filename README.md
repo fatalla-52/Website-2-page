@@ -28,19 +28,19 @@
         justify-content: center;
     }
     .item-1 {
-        width: 700px; 
-        height: 500px;
-        border-radius: 5px solid black;
+        width: 300%; 
+        height: 100%;
+        border-radius: 6px;
     }
     .item-2 {
-        width: 700px;
-        height: 500px;
-        border-radius: 5px solid black;
+        width: 700%;
+        height: 500%;
+        border-radius: 6px;
     }
     .item-3 {
-        width: 700px;
-        height: 500px;
-        border-radius: 5px solid black;
+        width: 700%;
+        height: 500%;
+        border-radius: 6px;
     }
 
     ul {
