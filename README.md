@@ -130,7 +130,8 @@
         <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
     </div>
 
-    <form>
+    <div class="form">
+      <form>
         <input type="text" placeholder="Full Name:">
         <input type="email" placeholder="Email:">
         <textarea placeholder="Message:"></textarea>
