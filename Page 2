@@ -112,8 +112,8 @@
         
   <main class="content-wrapper">
      <section class="column">
-  <div class="equipment" alt="Equipment">
-                </div>
+  <img scr="equipment.jpg" alt="Equipment">
+                
        <ul>
         <p>1. Bar spoon small</p>
         <p>2. Pearl Scooper</p>
@@ -124,7 +124,7 @@
        </section>
 
     <section class="column">
-        <div class="image-placeholder">
+        <img scr="ingredients.jpg" alt="Ingredients">
          </div>
        <ul>
         <p>1. Black Tea</p>
@@ -136,8 +136,7 @@
       </ul>
       </section>
             <section class="column">
-                <div class="image-placeholder recipe-image-placeholder">
-                </div>
+                <img scr="bubble-tea-boba.jpg" alt="Recipe">
             </section>
         </main>
     </div>
