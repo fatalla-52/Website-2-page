@@ -27,19 +27,11 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .item-1 {
+    .item {
         width: 300%; 
-        height: 100%;
-        border-radius: 6px;
     }
-    .item-2 {
-        width: 700%;
-        height: 500%;
-        border-radius: 6px;
-    }
-    .item-3 {
-        width: 700%;
-        height: 500%;
+    .item img{
+        width: 100%;
         border-radius: 6px;
     }
 
@@ -109,7 +101,7 @@
 
     <div class="flex">
 
-        <div class="item-1">
+        <div class="item">
             <img src="equipment.jpg" alt="Equipment">
             <ul>
                 <li>Bar spoon small</li>
@@ -120,7 +112,7 @@
             </ul>
         </div>
 
-        <div class="item-2">
+        <div class="item">
             <img src="milktee.jpg" alt="ingredients">
             <ul>
                 <li>Black Tea</li>
@@ -132,7 +124,7 @@
             </ul>
         </div>
 
-        <div class="item-3">
+        <div class="item">
             <img src="ingredients.jpg" alt="Recipe">
         </div>
     </div>
