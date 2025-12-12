@@ -51,8 +51,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 15px;
+        gap: 25px;
         justify-content: flex-end;
+        font-weight: bold;
     }
 
     input, textarea {
@@ -137,8 +138,8 @@
         <textarea placeholder="Message:"></textarea>
         <button type="submit">Send</button>
     </form>
+    </div>
 </div>
-
 </body>
 </html>
 
