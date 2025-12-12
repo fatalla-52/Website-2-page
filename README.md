@@ -28,7 +28,7 @@
         width: 270px; 
     }
     .item img{
-        width: 900%;
+        width: 930%;
         border-radius: 6px;
     }
     ul {
