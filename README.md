@@ -49,18 +49,17 @@
         margin: 10px 0;
         padding-left: 20px;
     }
-
-    .contact-container {
-        margin-top: 30px;
-        background: #c6c0a4;
-        padding: 20px;
+    nav {
+        padding: 15px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 25px;
     }
 
     .contact-info {
         margin-bottom: 20px;
     }
-
-    .contact-info p {
+60    .contact-info p {
         margin: 6px 0;
         font-size: 15px;
     }
