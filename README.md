@@ -10,14 +10,12 @@
         margin: 0;
         padding: 0;
         }
-
        body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #e0e0d1; 
         line-height: 1.6;
         padding: 20px;
         }
-
       .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -25,20 +23,17 @@
         padding: 15px;
         border-bottom: 5px solid black
         }
-
        header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 10px;
         }
-
        header h1 {
         font-size: 40px;
         color: #333;
         font-family: bold;
-        }
-        
+        } 
       .nav {
         padding: 15px 30px;
         display: flex;
@@ -46,19 +41,16 @@
         font-weight: bold;
         gap: 25px;
       }
-
       .content-wrapper {
         display: flex;
         flex-wrap: wrap;
         gap: 20px; 
         margin-top: 20px;
         }
-
       .column {
         flex: 1;
         min-width: 280px; 
         }
-
       .image-placeholder {
         width: 100%;
         background-color: #f9f9f9;
@@ -69,24 +61,20 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        }
-        
+        }        
       .recipe-image-placeholder {
         height: 350px;
         }
-
       h2 {
         font-size: 1.1rem;
         margin-bottom: 0.5rem;
         color: #555;
         }
-
       ul {
         padding: 5px 0;
         border-bottom: 1px solid #eee;
         font-size: 25px;
         }
-
      @media (max-width: 768px) {
       .content-wrapper {
         flex-direction: column;
@@ -121,7 +109,6 @@
         <p>5. Clear cocktail shaker 350ml</p>
        </ul>
        </section>
-
     <section class="column">
         <img scr="bubble-tea-boba.jpg" alt="RECIPE">
        <ul>
