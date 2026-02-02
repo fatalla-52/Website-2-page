@@ -1,129 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk Tea Recipe Layout</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        }
-
-       body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #e0e0d1; 
-        line-height: 1.6;
-        padding: 20px;
-        }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        background: #c7c1a5
-        padding: 15px;
-        border-bottom: 5px solid black
-        }
-
-       header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 10px;
-        }
-
-       header h1 {
-        font-size: 40px;
-        color: #333;
-        font-family: bold;
-        }
-        
-      .nav {
-        padding: 15px 30px;
-        display: flex;
-        justify-content: flex-end;
-        font-weight: bold;
-        gap: 25px;
-      }
-
-      .content-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; 
-        margin-top: 20px;
-        }
-
-      .column {
-        flex: 1;
-        min-width: 280px; 
-        }
-
-      h2 {
-        font-size: 1.1rem;
-        margin-bottom: 0.5rem;
-        color: #555;
-        }
-
-      ul {
-        padding: 5px 0;
-        border-bottom: 1px solid #eee;
-        font-size: 25px;
-        }
-
-     @media (max-width: 768px) {
-      .content-wrapper {
-        flex-direction: column;
-            }
-      .container {
-        padding: 10px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milk Tea Tour</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Learn</a>
-        <a href="#">Contact</a>
-      </nav>
-      
-   <div class="container">
-     
-   <header>
-     <h1>Equipment and ingredients for making milktea</h1>
-        </header>
-        
-  <main class="content-wrapper">
-     <section class="column">
-  <div class="equipment.jpg" alt="Equipment">
-                </div>
-       <ul>
-        <p>1. Bar spoon small</p>
-        <p>2. Pearl Scooper</p>
-        <p>3. Coffee spoon big</p>
-        <p>4. Clear jigger small</p>
-        <p>5. Clear cocktail shaker 350ml</p>
-       </ul>
-       </section>
 
-    <section class="column">
-        <div class="bubble-tea-boba.jpg">
-         </div>
-       <ul>
-        <p>1. Black Tea</p>
-        <p>2. Brown Sugar</p>
-        <p>3. Milk</p>
-        <p>4. Tapioca balls</p>
-        <p>5. Water</p>
-        <p>6. Ice</p>
-      </ul>
-      </section>
-            <section class="column">
-                <div class="Ingredients.jpg" alt="Ingredients">
-                </div>
-            </section>
-        </main>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>MILK TEA TOUR</h1>
+      <p class="tagline">Make yourself learn about milk tea!</p>
+      <p class="description">
+        This website is dedicated to showcasing and educating about milk tea.
+        It will serve those who want to learn new skills to make their own milk tea.
+        I hope you enjoy and learn a lot from our lesson in this milk tea tour.
+      </p>
+      <div class="buttons">
+        <a href="#" class="btn btn-primary">Join Now!</a>
+        <a href="#contact" class="btn btn-secondary">Contact Now!</a>
+      </div>
     </div>
+    <div class="hero-image">
+      <img src="milktea.png" alt="Milk Tea" />
+    </div>
+  </header> 
+  
+  <section class="section">
+    <div class="text-content">
+      <h2>Customer Order Process</h2>
+      <ul>
+        <li>Greet the customer politely</li>
+        <li>Ask for their milk tea choice</li>
+        <li>Ask what flavor they want</li>
+        <li>Choose the size (small, medium, large)</li>
+        <li>Sugar level (0%, 25%, 50%, 75%, 100%)</li>
+        <li>Ask if they want extra tapioca</li>
+        <li>Ask their name for the order</li>
+        <li>Confirm the order before preparation</li>
+      </ul>
+    </div>
+    <div class="image-content">
+      <img src="shop.jpg" alt="Milk Tea Shop" />
+    </div>
+  </section> 
+  
+  <section class="section">
+    <h2 class="center">Equipment and Ingredients for Making Milk Tea</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Equipment</h3>
+        <ol>
+          <li>Bar spoon (small)</li>
+          <li>Pearl scooper</li>
+          <li>Coffee spoon (big)</li>
+          <li>Clear jigger (small)</li>
+          <li>Cocktail shaker (350ml)</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3>Ingredients</h3>
+        <ol>
+          <li>Black tea</li>
+          <li>Brown sugar</li>
+          <li>Milk</li>
+          <li>Tapioca balls</li>
+          <li>Water</li>
+          <li>Ice</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  
+  <footer id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p><strong>Email:</strong> anglefatalla@gmail.com</p>
+        <p><strong>Phone:</strong> 09623428152</p>
+        <p><strong>Address:</strong> Sara Smile, 123 Giggle Ave, Richmond, VA 22548</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </footer>
 </body>
 </html>
